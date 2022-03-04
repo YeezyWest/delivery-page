@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../dist/output.css" rel="stylesheet">
+  <title>Delivery page</title>
+</head>
+
+<body class="text-center text-white bg-black">
+  <ul class=" px-4 flex justify-center">
+    <h1 class="font-mono text-xl bold uppercase py-20">We deliver</h1>
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 inline-block" fill="none" viewBox="0 0 24 24"
+      stroke="currentColor">
+      <path d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z" />
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+        d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0" />
+    </svg>
+
+  </ul>
+
+  <!--forms-->
+  <div class="font-mono text-xl text-black">
+    <form action="login.html">
+      <label class="block">
+        <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
+          Email
+        </span>
+        <input type="email" name="email" required
+          class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 w-60 rounded-md sm:text-sm focus:ring-1"
+          placeholder="you@example.com" />
+      </label>
+      <label class="block">
+        <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
+          password
+        </span>
+        <input type="password" name="password" required
+          class="mt-1 px-3 py-2  bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 w-60 rounded-md sm:text-sm focus:ring-1"
+          placeholder="password" />
+      </label>
+
+      <div class="py-2"><a>
+        <button href="login.html"
+          class="btn text-red-400 border-red-400 md:border-2 hover:bg-red-400 hover:text-white transition ease-out duration-500">Log
+          in</button>
+        </a>
+      </div>
+      <ul class="text-sm font-mono text-white">
+        <p>Forgot password? <a href="" class="text-white">click here</a></p>
+        <p>new user <a href="" class="text-white">click here to register</a></p>
+
+      </ul>
+    </form>
+    <!--form end here-->
+
+  </div>
+  </div>
+
+</body>
+
+</html>
